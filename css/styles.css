@@ -243,7 +243,9 @@ p {
 }
 
 .hero-title {
+    margin: 0 auto;
     margin-bottom: 30px;
+    width: 696px;
 
     color: var(--white-color);
 
@@ -286,6 +288,10 @@ p {
 
 .feature.list li:not(:first-child) {
     margin-left: 30px;
+}
+
+.feature .item {
+    width: 270px;
 }
 
 .feature .sub-title {
